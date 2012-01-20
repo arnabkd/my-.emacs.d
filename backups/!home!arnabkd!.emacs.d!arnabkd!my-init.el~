@@ -1,0 +1,27 @@
+;; personal settings
+;;(load-theme 'adwaita)
+
+;; settings and packages that dont require much tuning
+
+;; c-eldoc 
+;;(load "../elpa/c-eldoc-0.5/c-eldoc.el")
+;;(setq c-eldoc-includes "-I./ -I../ -I/usr/include/")
+(add-hook 'c-mode-hook 'c-turn-on-eldoc-mode)
+
+;; smooth-scrolling removes the jerkyness of emacs's default scrolling
+(require 'smooth-scrolling)
+
+
+(add-to-list 'load-path "~/.emacs.d/elpa/auto-complete")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete/ac-dict")
+(ac-config-default)
+
+;; Terminal colors that are more readable
+(setq ansi-color-names-vector
+      ["black" "red" "DarkOliveGreen4" "CadetBlue" "blue" "Purple" "DarkGoldenrod" "ivory4"])
+(setq ansi-term-color-vector
+      [unspecified "black" "red" "DarkOliveGreen4" "CadetBlue" "blue" "Purple" "DarkGoldenrod" "ivory4"])
+
+(load "../elpa/buffer-move-0.4/buffer-move.el")
+(require 'buffer-move)

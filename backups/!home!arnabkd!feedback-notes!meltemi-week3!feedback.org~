@@ -1,0 +1,65 @@
+* Meltemi week 3 qch file feedback
+** Mail from Nick (for own reference)
+Testing for week 3 Meltemi qch file release:
+ 
+Download the Meltemi snapshot from the following location and install it in the Meltemi SDK (Application SDK if you can find it).
+http://builder.europe.nokia.com:8080/job/External_latest_qch_to_staging/ws/meltemi-external.qch
+ 
+Not following links do not work:
+-          Frameset link on first page
+-          Feedback and Bluetooth API links
+ 
+Content:
+-          Browse through the documentation, although you do not need to look at every page
+ 
+Look for odd characters, pages not rendering, odd layouts, anything that seems unintended
+ 
+F1 Help
+Import some of the projects from Casper, I think you should be able to use his example package:
+Please ask him for the location.
+ 
+Open the examples, and test the F1 functionality for the classes
+Index:
+Go to the help system and see if the Class names appear properly in the index table
+Check to see if the Bookmark function works
+Test with some terms from the doc what happens when you search for class names, and other terms.
+Please be prepared to present some initial conclusions in the team meeting tomorrow at 9.00 Oslo time, if you are there.
+In addition, I would like to use your report as a basis for a release note on Friday, so please write down what you find.
+Note: This is a functional test of the qch file, not so much a check of the content.
+
+** Unintended stuff
+#+ATTR_HTML: border="2" rules="all" frame="border"
+|-----------------------------------------------+------------------------------------------------------------------|
+| Issue type/description                        | Page(s) affected                                                 |
+|-----------------------------------------------+------------------------------------------------------------------|
+| Images are missing                            | All pages have placeholders, but maybe this is intended for now? |
+|-----------------------------------------------+------------------------------------------------------------------|
+| Contents of the Navigation bar rendered twice | Tools/Creator Documentation,  Tools/qmake Manual                 |
+|-----------------------------------------------+------------------------------------------------------------------|
+| Empty bullet points                           | Home/Guide/Fundamentals/Development Quick Start                  |
+|-----------------------------------------------+------------------------------------------------------------------|
+
+** Pages that are not being rendered
+ + qml.html files in QML graphics example
+ + missing links to sourcecode in the "About this guide" section
+ + missing links to the guide in other formats (pdf, ebook etc)
+
+** Getting started - linking problems
+After I start coding in the "Getting Started & Prototyping the Application" section, I don't see a link to the next page. Hopefully this will be added soon.
+ 
+** Bookmarking
+Bookmarking seems to work fine.  
+
+** Searching
+Searching seems to work properly, and I can search my way back to specific pages inside the meltemi week 3 help thing.
+
+However, the search result I'm looking for might be too far down the list. Example : "getting started with meltemi" gives us 22 hits. But the link I actually want is #3 from the top, and the #2 link is actually just a page that contains the words "getting" and "started" in a whole another context. I realize that this isn't an issue with the .qch file itself, but this is still an issue that should get some attention.
+
+** Problematic cases
+While browsing, you have for instance "Home > Guide > Fundamentals > ..". Only the "Home" link is clickable, which seems quite awkward to me.  I don't understand (as a user) why certain parts of the path are clickable while others are not. 
+
+Sometimes, the back button in creator does not work properly. I don't think this is a bug with creator. An example of this :
+Go to Home/Guide/Tutorial/About this guide
+Click on the (broken) link for the guide in PDF format. Now you can't press "Back" to get back to the "About" page. 
+
+When not in fullscreen mode, the contents of the navigation bar can exceed the image background for the navigation bar, and this looks really ugly.

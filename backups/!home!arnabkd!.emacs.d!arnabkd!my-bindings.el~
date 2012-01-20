@@ -1,0 +1,16 @@
+
+;; Move selected region up and down
+(global-set-key [M-up] 'move-text-up)
+(global-set-key [M-down] 'move-text-down) 
+(global-set-key (kbd "<C-z") 'undo)
+(global-set-key (kbd "RET") 'newline-and-indent)
+(global-set-key (kbd "C-c n") 'iwb)
+(global-set-key (kbd "<f11>") 'compile)
+(global-set-key (kbd "<f12>") 'iwb)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
+(global-set-key (kbd "<f10>")  'ansi-term)
+
+(global-set-key (kbd "<C-S-up>")     'buf-move-up)
+(global-set-key (kbd "<C-S-down>")   'buf-move-down)
+(global-set-key (kbd "<C-S-left>")   'buf-move-left)
+(global-set-key (kbd "<C-S-right>")  'buf-move-right)

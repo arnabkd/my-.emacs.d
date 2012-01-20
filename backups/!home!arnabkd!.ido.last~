@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/arnabkd/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/arnabkd/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "custom.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/arnabkd/.emacs.d/" (20249 19327) "dominating-file.elc" "./" "zenburn-theme.el" "COPYING" "starter-kit-eshell.elc" "color-theme.elc" "init.elc" "auto-save-list/" "starter-kit-eshell.el" "backups/" "starter-kit-lisp.el" "starter-kit-perl.el" "elpa/" "color-theme.el" "color-theme-zenburn.el" "places" "starter-kit-misc.el" "starter-kit-lisp.elc" "../" "starter-kit-bindings.elc" "elpa-to-submit/" "package.el" "starter-kit-defuns.elc" "starter-kit-registers.elc" "dominating-file.el" "README.markdown" "starter-kit-registers.el" "starter-kit-ruby.el" "starter-kit-elpa.el" "starter-kit-misc.elc" "starter-kit-defuns.el" "starter-kit-js.elc" ".gitignore" "starter-kit-js.el" "technomancy-emacs-starter-kit-853a0f8/" "starter-kit-ruby.elc" "TODO" "init.el" "custom.el" "package.elc" "loaddefs.el" "starter-kit-bindings.el" "starter-kit-elpa.elc" "starter-kit-perl.elc")
+
+ ("/home/arnabkd/" (20249 19327) ".gconf/" "examples.desktop" ".designer/" ".mozilla/" "./" "feedback-notes/" ".gnome2/" ".pulse-cookie" ".ICEauthority" ".sudo_as_admin_successful" ".recentf" ".emacsbackup" ".gstreamer-0.10/" ".gnome2_private/" "README.md" "QtSDK/" ".bash_history" ".cache/" ".config/" ".irssi/" ".compiz-1/" "Desktop/" "Downloads/" ".gtk-bookmarks" "uni/" ".thumbnails/" "Videos/" ".esd_auth" ".xsession-errors" "../" ".dbus/" ".gitconfig" ".pki/" "mindmaps/" ".Xauthority" "playground/" ".mission-control/" ".bash_logout" ".freeplane/" ".java/" ".gvfs/" ".emacs.d/" "Documents/" ".dmrc" ".bashrc" "Music/" ".pulse/" "DITA-OT1.5.4/" ".ssh/" ".local/" "Pictures/" ".backup/" ".fontconfig/" "Public/" "Templates/" ".profile")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
